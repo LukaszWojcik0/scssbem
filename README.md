@@ -1,1 +1,1 @@
-# scssbem
+# Projekt SCSS + BEM
