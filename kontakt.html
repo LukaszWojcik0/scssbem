@@ -7,22 +7,51 @@
     <title>@_luckkk - Kontakt</title>
 </head>
 <body class="container">
-    <header class="container_header header">
-        <ul class="header_list">
-            <li class="header_list-item"><a href="main.html">home</a></li>
-            <li class="header_list-item"><a href="main.html/#">kim jestem</a></li>
-            <li class="header_list-item"><a href="portfolio.html">portfolio</a></li>
-            <li class="header_list-item"><a href="kontakt.html">kontakt</a></li>
+    <nav class="container_nav nav">
+        <ul class="nav_list">
+            <li class="nav_list-item"><a href="main.html">home</a></li>
+            <li class="nav_list-item"><a href="main.html/#">kim jestem</a></li>
+            <li class="nav_list-item"><a href="portfolio.html">portfolio</a></li>
+            <li class="nav_list-item"><a href="kontakt.html">kontakt</a></li>
         </ul>
+    </nav>
+
+    <header class="container_header header">
+        <h2 class="header_title">Kontakt</h2>
+        <p class="header_text">Jeśli znajdujesz się tutaj, spodobały ci się moje zdjęcia i masz ochotę nawiązać kontakt w celu realizacji jakiegoś projektu, lub po prostu chcesz powymieniać się pomysłami/spostrzeżeniami, to zapraszam do kontaktu przez niżej wymienione spodoby.</p>
     </header>
 
+    <section class="container_links links">
+        <div class="links_element1">
+            <img src="/resource/kontakt/insta.svg" alt="instagram logo" class="links_InstaLogo">
+            <a href="https://www.instagram.com/_luckkk/" class="InstaLink">instagram.com/_luckkk</a>
+        </div>
+        <div class="links_element2">
+            <img src="/resource/kontakt/koperta.svg" alt="E-mail logo" class="links_EmailLogo">
+            <!-- link do maila? -->
+            <p class="links_EmailAdress">wulkasz0@gmail.com</p>
+        </div>
+    </section>
 
-
-
-
-
-
-
+    <section class="container_form form">
+        <h4 class="form_title">Możesz także użyć tego formularza</h4>
+        <form action="#" method="POST" class="form_block">
+            <label for="name" class="form_labelDane">Dane
+                <input type="text" name="name" required placeholder="Imię i Nazwisko" class="form_inputDane">
+            </label>
+            <label for="email" class="form_labelEmail">E-mail
+                <input type="email" required name="email" placeholder="Twój e-mail" class="form_inputEmail">
+            </label>
+            <label for="phone" class="form_labelTel">Telefon
+                <input type="tel" name="phone" placeholder="Twój numer telefonu" class="form_inputTel">
+            </label>
+            <label for="comment" class="form_labelText">Treść
+                <textarea name="comment" id="com" required autocapitalize="sentences" rows="5"
+                    placeholder="Treść wiadomości" class="form_textarea"></textarea>
+            </label>
+            <input type="submit" value="Wyślij" id="send" class="form_submit">
+        </form>
+    </section>
 
     <footer class="containier_footer footer">
         <p class="footer_text">&copy; Łukasz Wójcik 2021r.</p>
