@@ -16,18 +16,38 @@
 
 .nav {
     width: 100%;
+
 }
 
 
 .nav_list {
-    text-decoration: none;
+    box-shadow: $nav_shadow;
+    text-align: center;
+
+    :hover {
+        background-color: $nav_butt-colorHover;
+    }
+
+    .nav_link {
+        text-decoration: none;
+
+        font-size: 0.9em;
+    }
+
 
 }
 
 .nav_list-item {
     display: inline-block;
-    background-color: $nav_button-color;
+    background-color: $nav_butt-color;
     padding: 10px;
     border-right: 1px solid transparent;
     box-shadow: $nav_shadow;
+
+
+    margin-right: 1em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
 }
+
+// MAIN - article 

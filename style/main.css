@@ -11,7 +11,18 @@
 }
 
 .nav_list {
+  -webkit-box-shadow: 1px 1px 5px black;
+          box-shadow: 1px 1px 5px black;
+  text-align: center;
+}
+
+.nav_list :hover {
+  background-color: #7a7a7a;
+}
+
+.nav_list .nav_link {
   text-decoration: none;
+  font-size: 0.9em;
 }
 
 .nav_list-item {
@@ -21,5 +32,8 @@
   border-right: 1px solid transparent;
   -webkit-box-shadow: 1px 1px 5px black;
           box-shadow: 1px 1px 5px black;
+  margin-right: 1em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
 }
 /*# sourceMappingURL=main.css.map */
