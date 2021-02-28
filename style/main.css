@@ -14,7 +14,7 @@
 
 .nav {
   width: 100%;
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 .nav_list {
@@ -29,7 +29,7 @@
 
 .nav_list .nav_link {
   text-decoration: none;
-  color: #5c5c5c;
+  color: #505050;
   font-size: 0.9em;
 }
 
@@ -56,9 +56,10 @@
           flex-direction: column;
 }
 
-.article_title {
+.article_titleWitaj {
   width: 100%;
   text-align: center;
+  color: #005DFF;
   margin-top: 1em;
   font-size: 2em;
   margin-bottom: 1em;
@@ -67,7 +68,7 @@
 .article_text {
   text-align: justify;
   background-color: rgba(255, 255, 255, 0.8);
-  color: #5c5c5c;
+  color: #505050;
   margin-inline: 10%;
   padding: 4%;
   font-size: 1em;
@@ -81,5 +82,27 @@
 
 .sectionBOTTOM {
   margin-top: 10em;
+}
+
+.article_titleKIM {
+  text-align: center;
+  color: #C0FF53;
+  font-size: 1.5em;
+  margin-inline: 1em;
+}
+
+.article_img {
+  padding: 20%;
+}
+
+.footer {
+  width: 100%;
+  padding: 3%;
+}
+
+.footer_text {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 2%;
+  color: #505050;
 }
 /*# sourceMappingURL=main.css.map */

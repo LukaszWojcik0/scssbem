@@ -8,6 +8,7 @@
 
 // importy
 @import "_vars.scss";
+@import "rwd530px.scss";
 
 
 
@@ -69,9 +70,10 @@
     flex-direction: column;
 }
 
-.article_title {
+.article_titleWitaj {
     width: 100%;
     text-align: center;
+    color: #005DFF;
 
 
     margin-top: 1em;
@@ -91,8 +93,6 @@
     margin-bottom: 5em;
 }
 
-// MAIN - aside
-
 .sectionTOP_instagram {
     width: 100%;
     padding: 10%;
@@ -102,4 +102,30 @@
 
 .sectionBOTTOM {
     margin-top: 10em;
+}
+
+.article_titleKIM {
+    text-align: center;
+    color: #C0FF53;
+
+    font-size: 1.5em;
+    margin-inline: 1em;
+
+}
+
+.article_img {
+    padding: 20%;
+}
+
+// MAIN - footer
+
+.footer {
+    width: 100%;
+    padding: 3%;
+}
+
+.footer_text {
+    background-color: $art_background;
+    padding: 2%;
+    color: $text_color;
 }
