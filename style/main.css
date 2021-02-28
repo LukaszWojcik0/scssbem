@@ -29,7 +29,7 @@
 
 .nav_list .nav_link {
   text-decoration: none;
-  color: #707070;
+  color: #5c5c5c;
   font-size: 0.9em;
 }
 
@@ -45,11 +45,41 @@
   margin-bottom: 0.5em;
 }
 
+.article {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
 .article_title {
   width: 100%;
   text-align: center;
   margin-top: 1em;
   font-size: 2em;
   margin-bottom: 1em;
+}
+
+.article_text {
+  text-align: justify;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #5c5c5c;
+  margin-inline: 10%;
+  padding: 4%;
+  font-size: 1em;
+  margin-bottom: 5em;
+}
+
+.sectionTOP_instagram {
+  width: 100%;
+  padding: 10%;
+}
+
+.sectionBOTTOM {
+  margin-top: 10em;
 }
 /*# sourceMappingURL=main.css.map */
