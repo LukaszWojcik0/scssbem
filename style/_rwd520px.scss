@@ -1,57 +1,13 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-
-// importy
-@import "_vars.scss";
-
-
-
-
-// container
-
-.container {
-    background-image: url(../background-img/tlorazem1.png);
-    background-position: top center;
-    background-repeat: no-repeat;
-    // background-size: 300%;
-}
-
-
 // nav
-
-.nav {
-    width: 100%;
-    background-color: $nav_color;
-}
-
-
 .nav_list {
-    box-shadow: $nav_shadow;
-    text-align: center;
-
-    :hover {
-        background-color: $nav_butt-colorHover;
-    }
-
     .nav_link {
-        text-decoration: none;
-        color: $text_color;
-
-
-        font-size: 0.9em;
+        font-size: 1em;
     }
 
 
 }
 
 .nav_list-item {
-    display: inline-block;
-    background-color: $nav_butt-color;
     padding: 10px;
     border-right: 1px solid transparent;
     box-shadow: $nav_shadow;
@@ -128,9 +84,4 @@
     background-color: $art_background;
     padding: 2%;
     color: $text_color;
-}
-
-
-@media (min-width: 520px) {
-    @import "_rwd520px.scss";
 }

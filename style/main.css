@@ -105,4 +105,71 @@
   padding: 2%;
   color: #505050;
 }
+
+@media (min-width: 520px) {
+  .nav_list .nav_link {
+    font-size: 1em;
+  }
+  .nav_list-item {
+    padding: 10px;
+    border-right: 1px solid transparent;
+    -webkit-box-shadow: 1px 1px 5px black;
+            box-shadow: 1px 1px 5px black;
+    margin-inline: 0.2em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+  }
+  .article {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .article_titleWitaj {
+    width: 100%;
+    text-align: center;
+    color: #005DFF;
+    margin-top: 1em;
+    font-size: 2em;
+    margin-bottom: 1em;
+  }
+  .article_text {
+    text-align: justify;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #505050;
+    margin-inline: 10%;
+    padding: 4%;
+    font-size: 1em;
+    margin-bottom: 5em;
+  }
+  .sectionTOP_instagram {
+    width: 100%;
+    padding: 10%;
+  }
+  .sectionBOTTOM {
+    margin-top: 10em;
+  }
+  .article_titleKIM {
+    text-align: center;
+    color: #C0FF53;
+    font-size: 1.5em;
+    margin-inline: 1em;
+  }
+  .article_img {
+    padding: 20%;
+  }
+  .footer {
+    width: 100%;
+    padding: 3%;
+  }
+  .footer_text {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 2%;
+    color: #505050;
+  }
+}
 /*# sourceMappingURL=main.css.map */
