@@ -138,3 +138,17 @@
 @media (min-width: 650px) {
     @import "_rwd650px.scss";
 }
+
+@media (min-width: 820px) {
+    @import "_rwd820px.scss";
+}
+
+@media (min-width: 865px) {
+    .article__titleKIM {
+        margin-top: 12vh;
+
+    }
+
+}
+
+@media (min-width: 960px) {}
