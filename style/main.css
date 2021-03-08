@@ -17,23 +17,23 @@
   background-color: rgba(255, 255, 255, 0.8);
 }
 
-.nav_list {
+.nav__list {
   -webkit-box-shadow: 1px 1px 5px black;
           box-shadow: 1px 1px 5px black;
   text-align: center;
 }
 
-.nav_list :hover {
+.nav__list :hover {
   background-color: #7a7a7a;
 }
 
-.nav_list .nav_link {
+.nav__list .nav__link {
   text-decoration: none;
   color: #505050;
   font-size: 0.9em;
 }
 
-.nav_list-item {
+.nav__list-item {
   display: inline-block;
   background-color: white;
   padding: 10px;
@@ -56,7 +56,7 @@
           flex-direction: column;
 }
 
-.article_titleWitaj {
+.article__titleWitaj {
   width: 100%;
   text-align: center;
   color: #005DFF;
@@ -65,7 +65,7 @@
   margin-bottom: 1em;
 }
 
-.article_text {
+.article__text {
   text-align: justify;
   background-color: rgba(255, 255, 255, 0.8);
   color: #505050;
@@ -75,7 +75,7 @@
   margin-bottom: 5em;
 }
 
-.sectionTOP_instagram {
+.sectionTOP__instagram {
   width: 100%;
   padding: 10%;
 }
@@ -84,14 +84,14 @@
   margin-top: 10em;
 }
 
-.article_titleKIM {
+.article__titleKIM {
   text-align: center;
   color: #C0FF53;
   font-size: 1.5em;
   margin-inline: 1em;
 }
 
-.article_img {
+.article__img {
   padding: 20%;
 }
 
@@ -100,21 +100,29 @@
   padding: 3%;
 }
 
-.footer_text {
+.footer__text {
   background-color: rgba(255, 255, 255, 0.8);
   padding: 2%;
   color: #505050;
 }
 
 @media (min-width: 520px) {
-  .nav_list .nav_link {
-    font-size: 1em;
+  .container {
+    background-position: top center;
+    background-repeat: no-repeat;
   }
-  .nav_list-item {
+  .nav {
+    width: 100%;
+  }
+  .nav__list {
+    text-align: center;
+  }
+  .nav__list .nav__link {
+    font-size: 0.9em;
+  }
+  .nav__list-item {
+    display: inline-block;
     padding: 10px;
-    border-right: 1px solid transparent;
-    -webkit-box-shadow: 1px 1px 5px black;
-            box-shadow: 1px 1px 5px black;
     margin-inline: 0.2em;
     margin-top: 0.5em;
     margin-bottom: 0.5em;
@@ -129,7 +137,7 @@
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .article_titleWitaj {
+  .article__titleWitaj {
     width: 100%;
     text-align: center;
     color: #005DFF;
@@ -137,39 +145,100 @@
     font-size: 2em;
     margin-bottom: 1em;
   }
-  .article_text {
-    text-align: justify;
-    background-color: rgba(255, 255, 255, 0.8);
-    color: #505050;
+  .article__text {
     margin-inline: 10%;
     padding: 4%;
     font-size: 1em;
-    margin-bottom: 5em;
+    margin-bottom: 3em;
   }
-  .sectionTOP_instagram {
+  .sectionTOP__instagram {
     width: 100%;
     padding: 10%;
   }
   .sectionBOTTOM {
     margin-top: 10em;
   }
-  .article_titleKIM {
-    text-align: center;
-    color: #C0FF53;
+  .article__titleKIM {
     font-size: 1.5em;
     margin-inline: 1em;
   }
-  .article_img {
+  .article__img {
+    margin-inline: 10%;
+  }
+  .footer {
+    width: 100%;
+    padding: 3%;
+  }
+  .footer__text {
+    padding: 2%;
+  }
+}
+
+@media (min-width: 650px) {
+  .container {
+    background-position: top center;
+    background-repeat: no-repeat;
+  }
+  .nav {
+    width: 100%;
+  }
+  .nav__list {
+    text-align: center;
+  }
+  .nav__list .nav__link {
+    font-size: 0.9em;
+  }
+  .nav__list-item {
+    display: inline-block;
+    padding: 10px;
+    margin-inline: 0.2em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+  }
+  .article {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .article__titleWitaj {
+    width: 100%;
+    text-align: center;
+    color: #005DFF;
+    margin-top: 1em;
+    font-size: 2em;
+    margin-bottom: 1em;
+  }
+  .article__text {
+    margin-inline: 10%;
+    padding: 4%;
+    font-size: 1em;
+    margin-bottom: 5em;
+  }
+  .sectionTOP__instagram {
+    width: 100%;
+    padding: 10%;
+  }
+  .sectionBOTTOM {
+    margin-top: 10em;
+  }
+  .article__titleKIM {
+    font-size: 1.5em;
+    margin-inline: 1em;
+  }
+  .article__img {
     padding: 20%;
   }
   .footer {
     width: 100%;
     padding: 3%;
   }
-  .footer_text {
-    background-color: rgba(255, 255, 255, 0.8);
+  .footer__text {
     padding: 2%;
-    color: #505050;
   }
 }
 /*# sourceMappingURL=main.css.map */
