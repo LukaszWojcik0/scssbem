@@ -624,7 +624,7 @@
   }
 }
 
-@media (min-width: 1550px) {
+@media (min-width: 1610px) {
   .container {
     background-position: top center;
     background-repeat: no-repeat;
@@ -653,7 +653,7 @@
             flex-direction: column;
     float: left;
     display: block;
-    margin-bottom: 1vw;
+    margin-bottom: 8vw;
   }
   .article__titleWitaj {
     text-align: left;
@@ -678,9 +678,9 @@
   }
   .sectionTOP__instagram {
     float: left;
-    width: 20%;
-    margin-inline: 10%;
-    padding: 5%;
+    width: 30%;
+    margin-left: 10%;
+    padding: 0;
     padding-top: 0;
     margin-top: 1%;
   }
@@ -689,7 +689,7 @@
   }
   .sectionBOTTOM__article {
     margin-top: 0vw;
-    margin-bottom: 3vw;
+    margin-bottom: 1vw;
   }
   .article__titleKIM {
     font-size: 1.5em;
