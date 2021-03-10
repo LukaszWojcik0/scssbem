@@ -122,3 +122,38 @@
     width: 100%;
     font-size: 0.8em;
 }
+
+
+///////////////////////////////      PORTFOLIO       ///////////////////////////////////////
+
+
+
+.article__title {
+    width: 100%;
+    text-align: center;
+    color: #019CD5;
+
+
+    margin-top: 1em;
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+.article__text-port {
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 1em;
+    padding: 3%;
+}
+
+
+
+
+.section-grid__podpis {
+    display: flex;
+    justify-content: center;
+    background-color: $art_background;
+    margin: 2vw;
+    text-align: center;
+    font-size: 1.5vw;
+}

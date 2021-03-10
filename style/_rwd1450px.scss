@@ -123,3 +123,64 @@
     width: 100%;
     font-size: 0.8em;
 }
+
+
+///////////////////////////////      PORTFOLIO       ///////////////////////////////////////
+
+
+
+.article__title {
+    width: 100%;
+    text-align: center;
+    color: #019CD5;
+
+
+    margin-top: 1em;
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+.article__text-port {
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 1em;
+    padding: 2%;
+}
+
+
+
+
+.section-grid__podpis {
+    display: flex;
+    justify-content: center;
+    background-color: $art_background;
+    margin: 0.8vw;
+    padding: 1vw;
+    text-align: center;
+    font-size: 1vw;
+}
+
+
+.section-grid {
+
+    margin-inline: 10%;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "ZDJ1 ZDJ2 ZDJ3"
+        "ZDJ4 ZDJ5 ZDJ6";
+
+}
+
+
+.section-grid__zdj1,
+.section-grid__zdj2,
+.section-grid__zdj3,
+.section-grid__zdj4,
+.section-grid__zdj5,
+.section-grid__zdj6 {
+    width: 15vw;
+    margin-inline: 5vw;
+}
