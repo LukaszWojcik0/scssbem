@@ -131,6 +131,26 @@
 }
 
 
+///////portfolio
+
+
+///article
+
+.article__title {
+    width: 100%;
+    text-align: center;
+    color: #019CD5;
+
+
+    margin-top: 1em;
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+
+
+
+
 @media (min-width: 520px) {
     @import "_rwd520px.scss";
 }
