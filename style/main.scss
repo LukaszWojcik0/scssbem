@@ -149,6 +149,55 @@
 
 
 
+.section-grid__podpis {
+    display: flex;
+    justify-content: center;
+    background-color: $art_background;
+    margin: 2vw;
+    text-align: center;
+    font-size: 4vw;
+    padding: 2vw;
+}
+
+.section-grid {
+    display: grid;
+    padding: 2vw;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "ZDJ1"
+        "ZDJ2"
+        "ZDJ3"
+        "ZDJ4"
+        "ZDJ5"
+        "ZDJ6";
+
+}
+
+.section-grid__article1 {
+    grid-area: ZDJ1;
+}
+
+.section-grid__article2 {
+    grid-area: ZDJ2;
+}
+
+.section-grid__article3 {
+    grid-area: ZDJ3;
+}
+
+.section-grid__article4 {
+    grid-area: ZDJ4;
+}
+
+.section-grid__article5 {
+    grid-area: ZDJ5;
+}
+
+.section-grid__article6 {
+    grid-area: ZDJ6;
+}
+
 
 
 @media (min-width: 520px) {
