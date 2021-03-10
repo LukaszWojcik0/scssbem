@@ -151,4 +151,14 @@
 
 }
 
-@media (min-width: 960px) {}
+@media (min-width: 960px) {
+    @import "_rwd960px.scss";
+}
+
+@media (min-width: 1200px) {
+    @import "_rwd1200px.scss";
+}
+
+@media (min-width: 1450px) {
+    @import "_rwd1450px.scss";
+}

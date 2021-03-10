@@ -6,7 +6,7 @@
 .container {
     background-position: top center;
     background-repeat: no-repeat;
-    background-size: 130vw;
+    background-size: 100vw;
 }
 
 
@@ -43,19 +43,20 @@
     flex-direction: column;
     float: left;
     display: block;
-    margin-bottom: 3vw;
+    margin-bottom: 1vw;
 }
 
 .article__titleWitaj {
     width: 100%;
-    text-align: center;
+    text-align: left;
     color: #005DFF;
     // background-color: $art_background;
     // background-size: auto;
 
-    margin-top: 0.4em;
+    margin-left: 5%;
+    margin-top: 8vw;
     font-size: 2em;
-    margin-bottom: 0.5vw;
+    margin-bottom: 0vw;
 }
 
 .article__text {
@@ -67,7 +68,7 @@
     float: left;
     width: 40%;
     display: block;
-    margin-top: 5%;
+    margin-top: 1%;
     margin-left: 5%;
     margin-bottom: 0;
 }
@@ -78,33 +79,35 @@
     margin-inline: 10%;
     padding: 5%;
     padding-top: 0;
-    margin-top: 5%;
+    margin-top: 1%;
 
 }
 
 // MAIN - section BOTTOM
 
 .sectionBOTTOM {
-    margin-top: 10em;
+    margin-top: 8em;
 }
 
 .sectionBOTTOM__article {
-    margin-top: 6vw;
+    margin-top: 0vw;
+    margin-bottom: 3vw;
 }
 
 .article__titleKIM {
     font-size: 1.5em;
     margin-inline: 1em;
     // margin-top: 2.5vh;
+    margin-bottom: 4vw;
 
 }
 
 .article__img {
     width: 40%;
     float: left;
-    padding: 7%;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding: 10%;
+    padding-top: 0;
+    padding-bottom: 15%;
 
     margin-inline: 5%;
 }
@@ -114,12 +117,13 @@
 .footer {
     display: flex;
     width: 100%;
-    padding: 3%;
-    padding-top: 0;
+    padding: 2%;
+    margin-top: 1vw;
+
 }
 
 .footer__text {
-    padding: 2%;
+    padding: 1%;
     width: 100%;
     font-size: 0.8em;
 }
