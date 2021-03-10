@@ -14,14 +14,7 @@
 
 // container
 
-.container {
-    width: 100%;
-    background-image: url(../background-img/tlorazem1.png);
-    background-position: top center;
-    background-repeat: no-repeat;
-    // background-size: 300%;
-    width: 100%;
-}
+
 
 
 // nav
@@ -147,7 +140,16 @@
     margin-bottom: 1em;
 }
 
+.article__text-port {
+    text-align: justify;
+    background-color: $art_background;
+    color: $text_color;
 
+    margin-inline: 10%;
+    padding: 4%;
+    font-size: 1em;
+    margin-bottom: 5em;
+}
 
 .section-grid__podpis {
     display: flex;
@@ -160,6 +162,9 @@
 }
 
 .section-grid {
+
+    margin-inline: 10%;
+    width: 80%;
     display: grid;
     padding: 2vw;
     grid-template-columns: 1fr;
@@ -172,6 +177,16 @@
         "ZDJ5"
         "ZDJ6";
 
+}
+
+
+.section-grid__zdj1,
+.section-grid__zdj2,
+.section-grid__zdj3,
+.section-grid__zdj4,
+.section-grid__zdj5,
+.section-grid__zdj6 {
+    width: 80vw;
 }
 
 .section-grid__article1 {

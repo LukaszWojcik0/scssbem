@@ -3,11 +3,7 @@
 
 // container
 
-.container {
-    background-position: top center;
-    background-repeat: no-repeat;
-    // background-size: 300%;
-}
+
 
 
 // nav
@@ -95,4 +91,94 @@
 
 .footer__text {
     padding: 2%;
+}
+
+
+
+
+///////////////////////////////      PORTFOLIO       ///////////////////////////////////////
+
+
+
+.article__title {
+    width: 100%;
+    text-align: center;
+    color: #019CD5;
+
+
+    margin-top: 1em;
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+
+.article__text-port {
+    margin-inline: 10%;
+    padding: 4%;
+    font-size: 1em;
+    margin-bottom: 5em;
+}
+
+
+.section-grid__podpis {
+    display: flex;
+    justify-content: center;
+    background-color: $art_background;
+    margin: 2vw;
+    text-align: center;
+    font-size: 2vw;
+    padding: 2vw;
+}
+
+.section-grid {
+
+    margin-inline: 10%;
+    width: 80%;
+    display: grid;
+    padding: 2vw;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "ZDJ1"
+        "ZDJ2"
+        "ZDJ3"
+        "ZDJ4"
+        "ZDJ5"
+        "ZDJ6";
+
+}
+
+
+.section-grid__zdj1,
+.section-grid__zdj2,
+.section-grid__zdj3,
+.section-grid__zdj4,
+.section-grid__zdj5,
+.section-grid__zdj6 {
+    width: 80vw;
+    // margin-inline: 5vw;
+}
+
+.section-grid__article1 {
+    grid-area: ZDJ1;
+}
+
+.section-grid__article2 {
+    grid-area: ZDJ2;
+}
+
+.section-grid__article3 {
+    grid-area: ZDJ3;
+}
+
+.section-grid__article4 {
+    grid-area: ZDJ4;
+}
+
+.section-grid__article5 {
+    grid-area: ZDJ5;
+}
+
+.section-grid__article6 {
+    grid-area: ZDJ6;
 }

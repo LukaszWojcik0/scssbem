@@ -1,0 +1,66 @@
+.container {
+    background-image: url(../background-img/tlorazem1.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    // background-size: 300%;
+    width: 100%;
+}
+
+
+
+@media (min-width: 520px) {
+    .container {
+        background-position: top center;
+        background-repeat: no-repeat;
+        // background-size: 300%;
+    }
+}
+
+
+@media (min-width: 650px) {
+    .container {
+        background-position: top center;
+        background-repeat: no-repeat;
+        // background-size: 300%;
+    }
+}
+
+@media (min-width: 820px) {
+    .container {
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-size: 140%;
+    }
+}
+
+@media (min-width: 960px) {
+    .container {
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-size: 130vw;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-size: 100vw;
+    }
+}
+
+@media (min-width: 1450px) {
+    .container {
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-size: 100vw;
+    }
+}
+
+@media (min-width: 1610px) {
+    .container {
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-size: 100vw;
+    }
+}
