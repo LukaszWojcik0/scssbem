@@ -129,6 +129,20 @@
 
 ///article
 
+
+.article-port {
+    text-align: justify;
+    background-color: $art_background;
+    color: $text_color;
+
+
+    margin-inline: 10%;
+    padding: 4%;
+    font-size: 1em;
+    margin-bottom: 5em;
+}
+
+
 .article__title {
     width: 100%;
     text-align: center;

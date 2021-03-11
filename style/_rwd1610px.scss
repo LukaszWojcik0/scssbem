@@ -39,7 +39,7 @@
     flex-direction: column;
     float: left;
     display: block;
-    margin-bottom: 8vw;
+    margin-bottom: 2vw;
 
 }
 
@@ -88,8 +88,8 @@
 }
 
 .sectionBOTTOM__article {
-    margin-top: 0vw;
-    margin-bottom: 1vw;
+    margin-top: 7em;
+    margin-bottom: 0vw;
 }
 
 .article__titleKIM {
@@ -97,6 +97,7 @@
     margin-inline: 1em;
     // margin-top: 2.5vh;
     margin-bottom: 4vw;
+    margin-top: 5em;
 
 }
 
@@ -127,6 +128,22 @@
 }
 
 ///////////////////////////////      PORTFOLIO       ///////////////////////////////////////
+
+
+.article-port {
+    margin-inline: 1%;
+    padding: 2%;
+    font-size: 1.1em;
+    margin-bottom: 5em;
+
+    float: left;
+    width: 40%;
+    display: block;
+    margin-top: 1%;
+    margin-left: 5%;
+    margin-bottom: 0;
+    height: 40vh;
+}
 
 
 

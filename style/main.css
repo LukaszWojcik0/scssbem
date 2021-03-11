@@ -99,6 +99,16 @@
   color: #505050;
 }
 
+.article-port {
+  text-align: justify;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #505050;
+  margin-inline: 10%;
+  padding: 4%;
+  font-size: 1em;
+  margin-bottom: 5em;
+}
+
 .article__title {
   width: 100%;
   text-align: center;
@@ -318,6 +328,12 @@
   .footer__text {
     padding: 2%;
   }
+  .article-port {
+    margin-inline: 10%;
+    padding: 4%;
+    font-size: 1em;
+    margin-bottom: 5em;
+  }
   .article__title {
     width: 100%;
     text-align: center;
@@ -478,6 +494,19 @@
   .footer__text {
     padding: 2%;
     width: 100%;
+  }
+  .article-port {
+    margin-inline: 1%;
+    padding: 4%;
+    margin: 25;
+    font-size: 1em;
+    margin-bottom: 5em;
+    float: left;
+    width: 40%;
+    display: block;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-bottom: 0;
   }
   .article__title {
     width: 100%;
@@ -648,6 +677,18 @@
     width: 100%;
     font-size: 0.8em;
   }
+  .article-port {
+    margin-inline: 1%;
+    padding: 2%;
+    font-size: 1em;
+    margin-bottom: 5em;
+    float: left;
+    width: 40%;
+    display: block;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-bottom: 0;
+  }
   .article__title {
     width: 100%;
     text-align: center;
@@ -762,6 +803,18 @@
     padding: 2%;
     width: 100%;
     font-size: 0.8em;
+  }
+  .article-port {
+    margin-inline: 1%;
+    padding: 2%;
+    font-size: 1em;
+    margin-bottom: 5em;
+    float: left;
+    width: 40%;
+    display: block;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-bottom: 0;
   }
   .article__title {
     width: 100%;
@@ -879,6 +932,18 @@
     width: 100%;
     font-size: 0.8em;
   }
+  .article-port {
+    margin-inline: 1%;
+    padding: 2%;
+    font-size: 1em;
+    margin-bottom: 5em;
+    float: left;
+    width: 40%;
+    display: block;
+    margin-top: 1%;
+    margin-left: 5%;
+    margin-bottom: 0;
+  }
   .article__title {
     width: 100%;
     text-align: center;
@@ -952,7 +1017,7 @@
             flex-direction: column;
     float: left;
     display: block;
-    margin-bottom: 8vw;
+    margin-bottom: 2vw;
   }
   .article__titleWitaj {
     text-align: left;
@@ -988,13 +1053,14 @@
     margin-top: 8em;
   }
   .sectionBOTTOM__article {
-    margin-top: 0vw;
-    margin-bottom: 1vw;
+    margin-top: 7em;
+    margin-bottom: 0vw;
   }
   .article__titleKIM {
     font-size: 1.5em;
     margin-inline: 1em;
     margin-bottom: 4vw;
+    margin-top: 5em;
   }
   .article__img {
     width: 40%;
@@ -1016,6 +1082,19 @@
     padding: 1%;
     width: 100%;
     font-size: 0.8em;
+  }
+  .article-port {
+    margin-inline: 1%;
+    padding: 2%;
+    font-size: 1.1em;
+    margin-bottom: 5em;
+    float: left;
+    width: 40%;
+    display: block;
+    margin-top: 1%;
+    margin-left: 5%;
+    margin-bottom: 0;
+    height: 40vh;
   }
   .article__title {
     width: 100%;
